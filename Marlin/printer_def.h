@@ -375,17 +375,17 @@
 #define USE_XMAX_PLUG
 #define USE_YMAX_PLUG
 //#define USE_ZMAX_PLUG
-#define X_BED_SIZE 350 //379
-#define Y_BED_SIZE 350 //395 // 371 new values to fix ender 5 plus Y stalling before hitting end stops.
+#define X_BED_SIZE 300 //379
+#define Y_BED_SIZE 300 //395 // 371 new values to fix ender 5 plus Y stalling before hitting end stops.
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 400
-#define INVERT_X_DIR true
-#define INVERT_Y_DIR true
-#define INVERT_Z_DIR true
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR false
+#define INVERT_Z_DIR false
 #define SHOW_CUSTOM_BOOTSCREEN // Show the bitmap in Marlin/_Bootscreen.h on startup.
 #define CHOPPER_TIMING CHOPPER_DEFAULT_24V
 #define x_steps 80

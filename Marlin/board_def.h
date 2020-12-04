@@ -87,7 +87,7 @@
 
 #if ENABLED(BTTSKRPROV1_1)
 #define motherboard_name BOARD_BTT_SKR_PRO_V1_1
-#define SERIAL_PORT 6
+#define SERIAL_PORT -1
 #define SERIAL_PORT_2 1
 #define BAUDRATE 115200
 #endif 
